@@ -10,5 +10,5 @@ nextISSTimesForMyLocation()
     }
   })
   .catch((error) => {
-    console.log('It didn\'t work: ', error.message); //Message is extracted from body, it's either success or failure.
+    console.log('It didn\'t work: ', error.message); //Message is extracted from body, it's either success or error.
   });
