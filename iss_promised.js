@@ -1,3 +1,5 @@
+//The same goal from iss.js and index.js, but refactored it with Promises:
+
 const request = require('request-promise-native');
 
 const fetchMyIP = function() {
